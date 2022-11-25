@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3790049 */
+  src: url('iconfont.woff2?t=1669266710006') format('woff2'),
+       url('iconfont.woff?t=1669266710006') format('woff'),
+       url('iconfont.ttf?t=1669266710006') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weiruan:before {
+  content: "\e600";
+}
+
+.icon-baidu:before {
+  content: "\e612";
+}
+

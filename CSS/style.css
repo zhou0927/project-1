@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
+    color: #444;
+    background: url(../images/1.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 60px 10px;
+    backdrop-filter: blur(3px);
+    /* 模糊背景色  */
+}
+
+ul>li {
+    list-style: none;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+#project {
+    max-width: 800px;
+    margin: auto;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.search-type {
+    display: flex;
+
+}
+
+.search-tab {
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.search-tab.active {
+    background-color: rgb(255, 255, 255);
+}
+
+.search-input {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.search-input .icon {
+    position: absolute;
+    font-size: 20px;
+    z-index: 1;
+    right: 11px;
+    top: 11px;
+    cursor: pointer;
+}
+
+.search-input>input {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0px 35px 0px 20px;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all .3s;
+}
+
+.search-input>input::placeholder {
+    color: #999;
+}
+
+.search-input>input:focus {
+    width: 600px;
+
+}
+
+
+#websites {
+    max-width: 800px;
+    ;
+}
+
+#websites .list h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#websites .item {
+    margin-top: 60px;
+}
+
+#websites .panel {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#websites .tab {
+    padding: 5px 15px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+#websites .tab:nth-child(4n+1) {
+    background-color: lightblue;
+}
+
+#websites .tab:nth-child(4n+2) {
+    background-color: lightgray;
+}
+
+#websites .tab:nth-child(4n+3) {
+    background-color: lightyellow;
+}
+
+#websites .tab:nth-child(4n+4) {
+    background-color: lightcyan;
+}

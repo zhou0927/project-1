@@ -1,0 +1,23 @@
+{
+  "id": "3790049",
+  "name": "导航项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1440",
+      "name": "微软",
+      "font_class": "weiruan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "14055556",
+      "name": "百度",
+      "font_class": "baidu",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}
